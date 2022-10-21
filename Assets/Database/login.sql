@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 20, 2022 at 09:45 PM
+-- Generation Time: Oct 21, 2022 at 02:06 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -38,13 +38,6 @@ CREATE TABLE `login` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `login`
---
-
-INSERT INTO `login` (`id`, `fname`, `lname`, `email`, `pwd`, `pnumber`, `furl`) VALUES
-(1, 'Miraz', 'Mondal', 'mirazmondal1@gmail.com', '123', '+916291688300', 'Upload/1666204577869.jpg');
-
---
 -- Indexes for dumped tables
 --
 
@@ -62,7 +55,7 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
