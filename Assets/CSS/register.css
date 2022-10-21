@@ -36,9 +36,14 @@ h1 {
     cursor: pointer;
     color: #8b0000;
     font-weight: 600;
+    border-radius: 5px;
 }
 
-.anchor{
+.anchor {
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
 }
