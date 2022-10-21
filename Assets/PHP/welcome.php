@@ -7,7 +7,8 @@ require 'session-check.php';
     <head>
         <style>
             body{
-                background-image: linear-gradient(to right, #2af598 0%, #009efd 100%);
+                background-color: #00DBDE;
+                background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
                 text-align: center;
             }
         </style>
